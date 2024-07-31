@@ -1,9 +1,11 @@
 """
 Write me a program on Python that takes a number and makes it negative if it is not negative yet.
+https://www.codewars.com/kata/55685cd7ad70877c23000102
 """
 
 def make_negative(number):
     return -abs(number)
 
 my_number = input("Enter your number here, please: ")
-print(make_negative(my_number))
+answer = make_negative(my_number)
+print(answer)

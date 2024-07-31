@@ -1,7 +1,7 @@
 """
-In this task, you are asked to square every digit of a number and concatenate them.
-
+Write a program that squares each digit of a number and combines them.
 For example, an input of 765 will return 493625.
+https://www.codewars.com/kata/546e2562b03326a88e000020
 """
 
 def square_digits(given_number):
