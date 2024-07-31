@@ -1,5 +1,6 @@
 """
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
 """
 
 def even_or_odd(given_number):
@@ -9,4 +10,5 @@ def even_or_odd(given_number):
         return "Odd"
 
 my_number = input("Enter your number here, please: ")
-print(even_or_odd(my_number))
+answer = even_or_odd(my_number)
+print(answer)
