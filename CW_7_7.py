@@ -4,6 +4,7 @@ If the word's length is odd, return the middle character.
 If the word's length is even, return the middle 2 characters.
 https://www.codewars.com/kata/56747fd5cb988479af000028
 """
+
 def get_the_middle(word):
     length = len(word)
     middle = length // 2
