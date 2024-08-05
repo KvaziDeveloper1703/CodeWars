@@ -11,5 +11,5 @@ def sum_of_all_squared_numbers(given_array):
 
 my_array = [3,6,1,2,5]
 
-answer = square_sum(my_array)
+answer = sum_of_all_squared_numbers(my_array)
 print(answer)

@@ -1,7 +1,7 @@
 """
 Write a program that finds the number that appears an odd number of times in a given array of integers.
-
 There will always be only one integer that appears an odd number of times.
+https://www.codewars.com/kata/54da5a58ea159efa38000836
 """
 
 def find_odd_occurrence(given_array):
@@ -16,4 +16,5 @@ def find_odd_occurrence(given_array):
             return number
 
 my_array = [3,1,1,2,2]
-print(find_odd_occurrence(my_array))
+desired_number = find_odd_occurrence(my_array)
+print(desired_number)
